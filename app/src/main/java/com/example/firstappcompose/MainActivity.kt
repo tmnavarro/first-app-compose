@@ -23,6 +23,7 @@ import androidx.compose.ui.unit.dp
 import com.example.firstappcompose.ui.theme.FirstAppComposeTheme
 import com.example.firstappcompose.ui.theme.Typography
 import com.example.firstappcompose.ui.theme.component.HelloContent
+import com.example.firstappcompose.ui.theme.component.customComponents.ChooseMyFavoriteHero
 import com.example.firstappcompose.ui.theme.component.modifierDemo.InteractionPropertiesDemo
 
 class MainActivity : ComponentActivity() {
@@ -33,7 +34,8 @@ class MainActivity : ComponentActivity() {
             FirstAppComposeTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
 //                    HelloContent(modifier = Modifier.padding(innerPadding))
-                    InteractionPropertiesDemo(modifier = Modifier.padding(innerPadding))
+//                    InteractionPropertiesDemo(modifier = Modifier.padding(innerPadding))
+                    ChooseMyFavoriteHero(modifier = Modifier.padding(innerPadding))
                 }
             }
         }

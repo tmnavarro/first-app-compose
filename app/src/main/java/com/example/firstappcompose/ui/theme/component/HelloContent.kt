@@ -35,7 +35,7 @@ fun HelloContent(modifier: Modifier = Modifier) {
             onValueChange = { updateText -> name = updateText },
             label = {
                 Text(
-                    text = stringResource(R.string.label_name)
+                    text = "Text"
                 )
             }
         )
